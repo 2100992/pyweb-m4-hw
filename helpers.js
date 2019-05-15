@@ -8,7 +8,7 @@ advice_url = "https://api.adviceslip.com/advice"
 var dt = new Date();
 var time = dt.getFullYear() + "-" + dt.getMonth() + "-" + dt.getDay();
 d = $("#dt")
-d.html(time)
+d.html("Что день " + time + " нам готовит?")
 
 $("#main-header").click(function() {
     console.log("1: внутри анонимной функции");
