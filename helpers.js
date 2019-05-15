@@ -6,7 +6,7 @@ advice_url = "https://api.adviceslip.com/advice"
 */
 
 var dt = new Date();
-var time = dt.getFullYear() + "-" + dt.getMonth() + "-" + dt.getDay();
+var time = dt.getFullYear() + "-" + dt.getMonth() + "-" + dt.getDate();
 d = $("#dt")
 d.html("Что день " + time + " нам готовит?")
 
